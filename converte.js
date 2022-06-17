@@ -16,7 +16,7 @@ function converteMedidas() {
 
 botaoLimpar.addEventListener('click',function(){
     listaResultado.setAttribute('hidden','hidden');
-    inputKg.textContent = '';
+    inputKg.value = '';
     inputKg.focus();
     botaoLimpar.setAttribute('hidden','hidden');
 });
