@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Massa</title>
+</head>
+<body>
+<h1>Conversor de Massa</h1>
+
+<h2>Informe o valor em kg</h2>
+
+<p>Quilos (kg): <input type="text" id="inputKg" onchange="converteMedidas()"></p>
+
+<div id="saida" hidden>
+<p>Grama (g): <span id="grama"></span></p>
+<p>Miligrama (mg): <span id="miligrama"></span></p>
+<p>Tonelada (t): <span id="tonelada"></span></p>
+</div>
+
+<button id="botaoCalcular" onclick="converteMedidas()">Calcular</button>
+
+<button id="botaoLimpar" hidden>Limpar</button>
+
+    <script src="converte.js"></script>
+</body>
+</html>
